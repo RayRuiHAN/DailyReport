@@ -127,43 +127,7 @@ def self_email(host, port, sender, pwd):
 
 if __name__ == '__main__':
     # health_report(学号, 密码)
-    health_report('15220182202416', 'Wxf665789', ifvpn=0)
+    health_report('xxxxx', 'xxxx', ifvpn=0)
     sleep(1)
     # self_email(发件服务器地址,发件服务器端口,发件邮箱,发件邮箱第三方授权码)
-    self_email('smtp.qq.com', '465', '992353539@qq.com', 'vissmgnejpfsbfid')
-
-'''    # 地址省市县
-    driver.find_element_by_xpath('//*[@id="address_1582538163410"]/div/div[1]/div/div').click()
-    time.sleep(1)
-    driver.find_element_by_xpath('/html/body/div[8]/ul/div[2]/div[3]/li[28]/label').click()
-    time.sleep(1)
-    driver.find_element_by_xpath('//*[@id="address_1582538163410"]/div/div[2]/div/div').click()
-    time.sleep(1)
-    driver.find_element_by_xpath('/html/body/div[8]/ul/div/div[3]/li[2]/label').click()
-    time.sleep(1)
-    driver.find_element_by_xpath('//*[@id="address_1582538163410"]/div/div[3]/div/div').click()
-    time.sleep(1)
-    driver.find_element_by_xpath('/html/body/div[9]/ul/div/li[1]/label').click()
-    time.sleep(1)
-
-    # 在校
-    driver.find_element_by_xpath('/html/body/div[1]/div/div/div/div/div[2]/div[1]/div/div/div/div[4]/div/div[14]/div/div/div').click()
-    time.sleep(1)
-    driver.find_element_by_xpath('/html/body/div[8]/ul/div/div[3]/li[1]/label').click()
-    time.sleep(1)
-    driver.find_element_by_xpath('/html/body/div[1]/div/div/div/div/div[2]/div[1]/div/div/div/div[4]/div/div[17]/div/div/div').click()
-    time.sleep(1)
-    driver.find_element_by_xpath('/html/body/div[8]/ul/div/div[3]/li[1]/label/span[2]').click()
-    time.sleep(1)
-    driver.find_element_by_xpath('/html/body/div[1]/div/div/div/div/div[2]/div[1]/div/div/div/div[4]/div/div[18]/div/div/div').click()
-    time.sleep(1)
-    driver.find_element_by_xpath('/html/body/div[8]/ul/div/div[3]/li[1]/label/span[2]').click()
-    time.sleep(1)
-    driver.find_element_by_xpath('/html/body/div[1]/div/div/div/div/div[2]/div[1]/div/div/div/div[4]/div/div[20]/div/div/div').click()
-    time.sleep(1)
-    driver.find_element_by_xpath('/html/body/div[8]/ul/div[2]/div[3]/li[82]/label').click()
-    time.sleep(1)
-    dom='0408'
-    driver.find_element_by_xpath('/html/body/div[1]/div/div/div/div/div[2]/div[1]/div/div/div/div[4]/div/div[21]/div[1]/input').send_keys(dom)
-    time.sleep(1)
-'''
+    self_email('smtp.qq.com', '465', 'xxx@qq.com', 'xxxxxxx')
